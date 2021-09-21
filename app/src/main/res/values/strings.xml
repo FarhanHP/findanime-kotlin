@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">FindAnime</string>
+  <string name="about_author">About Author</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="back">back</string>
+  <string name="author">Farhan Herdian Pradana</string>
+  <string name="author_email">farhan.herdia123@gmail.com</string>
+  <string name="github_url">https://github.com/farhanhp</string>
+  <string name="linkedin_url">https://www.linkedin.com/in/farhan-herdian-pradana-764651125/</string>
+  <string name="author_photo">Author Photo</string>
+  <string name="add_favorite">Add Favorite</string>
+  <string name="remove_favorite">Remove Favorite</string>
+</resources>

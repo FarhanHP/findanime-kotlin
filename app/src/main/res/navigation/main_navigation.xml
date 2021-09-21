@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/main_navigation"
+  app:startDestination="@id/mainPageFragment">
+  <fragment
+    android:id="@+id/mainPageFragment"
+    android:name="com.farhanhp.findanime.MainPageFragment"
+    android:label="fragment_main_page"
+    tools:layout="@layout/fragment_main_page" >
+    <action
+      android:id="@+id/action_mainPageFragment_to_aboutPageFragment"
+      app:destination="@id/aboutPageFragment"
+      app:enterAnim="@android:anim/slide_in_left"
+      app:popEnterAnim="@android:anim/fade_in" />
+    <action
+      android:id="@+id/action_mainPageFragment_to_detailPageFragment"
+      app:destination="@id/detailPageFragment"
+      app:enterAnim="@android:anim/slide_in_left"
+      app:popEnterAnim="@android:anim/fade_in" />
+  </fragment>
+  <fragment
+    android:id="@+id/aboutPageFragment"
+    android:name="com.farhanhp.findanime.AboutPageFragment"
+    android:label="fragment_about_page"
+    tools:layout="@layout/fragment_about_page" />
+  <fragment
+    android:id="@+id/detailPageFragment"
+    android:name="com.farhanhp.findanime.DetailPageFragment"
+    android:label="fragment_detail_page"
+    tools:layout="@layout/fragment_detail_page" >
+    <argument
+      android:name="selectedAnimeId"
+      app:argType="integer"
+      android:defaultValue="0" />
+  </fragment>
+</navigation>

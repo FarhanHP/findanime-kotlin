@@ -1,0 +1,16 @@
+<resources>
+  <declare-styleable name="CircleImage">
+    <attr name="backgroundColor" format="color" />
+    <attr name="src" format="reference" />
+    <attr name="contentDescription" format="string" />
+  </declare-styleable>
+
+  <declare-styleable name="SecondaryToolbar">
+    <attr name="toolbarTitle" format="string" />
+  </declare-styleable>
+
+  <declare-styleable name="AnimeCard">
+    <attr name="animeTitle" format="string"/>
+    <attr name="animeImage" format="reference"/>
+  </declare-styleable>
+</resources>
