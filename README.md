@@ -1,6 +1,8 @@
 # findanime-kotlin
 
-Finding anime app with dummy data for Mobile Computing course assigment 1 submission
+Finding anime app with dummy data for Mobile Computing Course 1st Assignment.
+
+Computer Science, State University  of Jakarta
 
 ## Statement of originality
 
