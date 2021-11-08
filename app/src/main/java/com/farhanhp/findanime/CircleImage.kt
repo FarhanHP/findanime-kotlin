@@ -14,7 +14,7 @@ class CircleImage @JvmOverloads constructor(context: Context, attrs: AttributeSe
   init {
     LayoutInflater.from(context).inflate(R.layout.circle_image, this, true)
     orientation = VERTICAL
-    imageView = findViewById(com.farhanhp.findanime.R.id.circleImage__imageView)
+    imageView = findViewById(R.id.circleImage__imageView)
 
     context.withStyledAttributes(attrs, R.styleable.CircleImage) {
       imageView.background = getDrawable(R.styleable.CircleImage_backgroundColor)
